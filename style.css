@@ -1,3 +1,7 @@
+#comprar-agora .tm-element-woo-stock, #comprar-agora .mp-credits-banner-info{
+	display: none
+}
+
 /*.page-id-2409 header, .page-id-2419 header, .page-id-2592 header, .page-id-2645 header*/
 .origem-composta header  {
     display:none !important;
