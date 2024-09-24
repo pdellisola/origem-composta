@@ -1,0 +1,264 @@
+/*.page-id-2409 header, .page-id-2419 header, .page-id-2592 header, .page-id-2645 header*/
+.origem-composta header  {
+    display:none !important;
+}
+
+/*.page-id-2409 p, .page-id-2419 p, .page-id-2409 a,.page-id-2419 a, .page-id-2592 a, .page-id-2409 li, .page-id-2419 li, .page-id-2645 p, .page-id-2592 p, .page-id-2645 a, .page-id-2645 li, .page-id-2592 li*/
+.origem-composta p, .origem-composta a, .origem-composta li {
+    font-family: "Open Sans", sans-serif;
+    font-size:clamp(16px, 1.3vw, 21px);
+    line-height:1.5;
+}
+
+/*.page-id-2409 a.uk-button, .page-id-2419 a.uk-button, .page-id-2645 a.uk-button, .page-id-2592 a.uk-button*/ 
+.origem-composta a.uk-button {
+    font-size:clamp(16px, 1.3vw, 21px);
+    line-height:1.5;
+}
+
+
+.script-info {
+    font-family:"Sabrina", cursive;
+    color:#890F54;
+    font-size:2.5em;
+}
+
+/*.page-id-2419 .subtitle, .page-id-2645 .subtitle, .page-id-2592 .subtitle*/
+.origem-composta .subtitle {
+    font-size:1.5em;
+    line-height:1.5;
+}
+
+/*.page-id-2409 h2, .page-id-2419 h2, .page-id-2645 h2, .page-id-2592 h2*/ 
+.origem-composta h2 {
+    font-family:;
+    font-size:clamp(46px, 3.7vw, 58px);
+}
+
+@media only screen and (max-width: 768px) {
+/*.page-id-2409 h2, .page-id-2419 h2, .page-id-2645 h2, .page-id-2592 h2*/
+.origem-composta h2 {
+    font-size:12vw;
+    }
+}
+
+/*.page-id-2409 h3, .page-id-2419 h3, .page-id-2654 h3, .page-id-2592 h3*/ 
+.origem-composta h3{
+   font-size:clamp(37px, 3vw, 48px);
+}
+
+/*.page-id-2592 h3.uk-h6*/ 
+.origem-composta h3.uk-h6 {
+    font-size: 13px !important;
+}
+
+/*.page-id-2592 a.el-link*/ 
+.origem-composta a.el-link {
+     font-size: 13px !important;   
+}
+
+@media only screen and (max-width: 768px) {
+/*.page-id-2409 h3, .page-id-2419 h3, .page-id-2654 h3, .page-id-2592 h3*/ 
+    .origem-composta h3 {
+   font-size:9vw;
+}
+}
+
+
+/*.page-id-2409 .el-section div, .page-id-2419 .el-section div, .page-id-2645 .el-section div, .page-id-2592 .el-section div*/
+.origem-composta .el-section div {
+    background-image: none;
+}
+
+.rasgadooc {
+    position:relative;
+}
+
+.rasgadooc::before,.rasgadooc::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -38px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-repeat: repeat-x;
+    z-index:;
+     background-image: url("https://www.institutoorigem.com.br/wp-content/uploads/2024/06/divisoroc2.svg");
+}
+.rasgadooc::after{
+	transform: rotate(180deg);
+	top: unset;
+	bottom: -38px;
+}
+
+.verde::before, .verde::after {
+    background-image: url("https://www.institutoorigem.com.br/wp-content/uploads/2024/06/divisoroc-2.svg") !important;
+}
+
+.roxo::before, .roxo::after {
+    background-image: url("https://www.institutoorigem.com.br/wp-content/uploads/2024/06/divisoroc-3.svg") !important;
+
+}
+
+.arco-laranja::before, .arco-laranja::after {
+      top: -44px;
+        height: 44px !important;
+        background-repeat: no-repeat;
+    background-size:100%;
+    width:100vw;
+    background-image: url("https://www.institutoorigem.com.br/wp-content/uploads/2024/06/Untitled-design-1.svg") !important;
+}
+
+.arco-laranja::after {
+	top: unset;
+	bottom: -44px;
+}
+
+
+.arco-alto::before, .arco-alto::after {
+      top: -100px;
+        height:100px !important;
+        background-repeat: no-repeat;
+    background-size:100vw;
+    width:100vw;
+    background-image: url("https://www.institutoorigem.com.br/wp-content/uploads/2024/07/Untitled-design-4.svg") !important;
+}
+
+.arco-alto::after {
+	top: unset;
+	bottom: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default state: Show nav menu on desktop, hide on mobile */
+/*.page-id-2409 .nav-menu,
+.page-id-2419 .nav-menu, .page-id-2645 .nav-menu, .page-id-2592 .nav-menu*/
+.origem-composta .nav-menu {
+    display:none;
+}
+
+/* Hide hamburger icon by default */
+/*.page-id-2409 .hamburger-icon,
+.page-id-2419 .hamburger-icon, .page-id-2645 .hamburger-icon, .page-id-2592 .hamburger-icon*/
+.origem-composta .hamburger-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+/* Mobile view */
+@media only screen and (max-width: 768px) {
+    /*.page-id-2409 .hamburger-icon,
+    .page-id-2419 .hamburger-icon, .page-id-2645 .hamburger-icon, .page-id-2592 .hamburger-icon*/
+.origem-composta .hamburger-icon {
+        display: flex; /* Show hamburger icon on mobile */
+    }
+
+    /*.page-id-2409 .nav-menu,
+    .page-id-2419 .nav-menu, .page-id-2645 .nav-menu, .page-id-2592 .nav-menu*/
+    .origem-composta .nav-menu {
+        display: none; /* Hide nav menu by default on mobile */
+        flex-direction:; /* Ensure menu items stack vertically */
+    }
+    
+    /*.page-id-2419 .header-section, .page-id-2645 .header-section, .page-id-2592 .header-section*/ 
+.origem-composta .hader-section {
+        padding-top:10px !important;
+    }
+
+    /*.page-id-2409 .nav-menu.active,
+    .page-id-2419 .nav-menu.active, .page-id-2645 .nav-menu.active, .page-id-2592 .nav-menu.active*/ 
+    .origem-composta .nav-menu.active {
+        display: flex; /* Show nav menu when active */
+    }
+    
+    .origem-composta .nav-menu-desktop {
+        display:none;
+    }
+
+    /*.page-id-2409 .hamburger-icon.active span:nth-child(1), .page-id-2419 .hamburger-icon.active span:nth-child(1), .page-id-2645 .hamburger-icon.active span:nth-child(1), .page-id-2592 .hamburger-icon.active span:nth-child(1)*/ 
+    .origem-composta .hamburger-icon.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(10px);
+    }
+
+    /*.page-id-2409 .hamburger-icon.active span:nth-child(2),
+    .page-id-2419 .hamburger-icon.active span:nth-child(2), .page-id-2645 .hamburger-icon.active span:nth-child(2), .page-id-2592 .hamburger-icon.active span:nth-child(2)*/ 
+    .origem-composta .hamburger-icon.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    /*.page-id-2409 .hamburger-icon.active span:nth-child(3),
+    .page-id-2419 .hamburger-icon.active span:nth-child(3), .page-id-2645 .hamburger-icon.active span:nth-child(3), .page-id-2592 .hamburger-icon.active span:nth-child(3)*/ 
+    .origem-composta .hamburger-icon.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-10px);
+    }
+}
+
+/* Ensure the header items are aligned */
+.origem-composta .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Make header sticky and add transition for hiding */
+.origem-composta .header-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+/* Hide the header when scrolling down */
+.origem-composta .header-section.hidden {
+    top: -100px; /* Adjust this value based on the height of your header */
+}
+
+
+
