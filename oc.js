@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (document.querySelector('.page-id-2409') || document.querySelector('.page-id-2419') || document.querySelector('.page-id-2645') || document.querySelector('.page-id-2592')) {
+    if (document.querySelector('.page-id-2409') || document.querySelector('.page-id-2419') || document.querySelector('.page-id-2592') || document.querySelector('.page-id-2645') || document.querySelector('.page-id-2907') || document.querySelector('.page-id-2937') || document.querySelector('.page-id-2592')) {
         var header = document.querySelector('.header-section');
         var lastScrollTop = 0;
 
